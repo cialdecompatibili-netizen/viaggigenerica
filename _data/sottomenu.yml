@@ -31,3 +31,20 @@
 # Per levare una tendina: cancella il blocco, la voce torna un link normale.
 # Documentazione del funzionamento: commento in testa a _includes/masthead.html.
 # =====================================================================================
+
+Viaggi:
+  - title: "Tutti i viaggi"
+    url: /pacchetti/
+  - divider: true
+  - title: "Mare e vacanze"
+    url: /pacchetti/mare-vacanze/
+  - title: "Città e weekend"
+    url: /pacchetti/citta-weekend/
+  - title: "Tour organizzati"
+    url: /pacchetti/tour-organizzati/
+  - title: "Crociere"
+    url: /pacchetti/crociere/
+  - title: "Viaggi di nozze"
+    url: /pacchetti/viaggi-di-nozze/
+  - title: "Vacanze in famiglia"
+    url: /pacchetti/famiglie/

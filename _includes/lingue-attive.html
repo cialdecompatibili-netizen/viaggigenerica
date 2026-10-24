@@ -12,7 +12,7 @@
 {%- endcomment -%}
 {%- assign lg_arr = site.default_lang | split: ',' -%}
 {%- if site.languages -%}{%- assign lg_arr = lg_arr | concat: site.languages -%}{%- endif -%}
-{%- for p in site.pages -%}
+{%- assign lp_all = site.pages | concat: site.documents -%}{%- for p in lp_all -%}
   {%- assign lg_seg = p.path | split: '/' -%}
   {%- if lg_seg.size > 1 -%}
     {%- assign lg_dir = lg_seg[0] -%}

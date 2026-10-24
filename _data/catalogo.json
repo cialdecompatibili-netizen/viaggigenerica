@@ -2,12 +2,12 @@
   "_nota": "Catalogo dello shop (serve solo con ecommerce: true in _config.yml). Prezzi in CENTESIMI. Ogni prodotto/categoria ha anche una pagina in _negozio/ (layout negozio-prodotto con pid=<id>, negozio-categoria con cid=<id>). L'id categoria e' riservato. tipo: digitale (niente spedizione) o fisico. visibile:false nasconde senza cancellare. TRADUZIONI: ogni categoria/prodotto puo' avere \"tr\": {\"en\": {\"nome\": \"...\", \"descrizione\": \"...\", \"descrizione_completa\": \"...\"}}; campo mancante = si usa l'italiano.",
   "categorie": [
     {
-      "nome": "Esempio",
-      "id": "esempio",
-      "icona": "🛍️",
+      "nome": "Pacchetti viaggio",
+      "id": "pacchetti-viaggio",
+      "icona": "✈️",
       "tr": {
         "en": {
-          "nome": "Example"
+          "nome": "Travel packages"
         }
       }
     }
@@ -15,20 +15,77 @@
   "prodotti": [
     {
       "tipo": "digitale",
-      "id": "prodotto-esempio",
-      "nome": "Prodotto di esempio",
-      "categoria": "esempio",
-      "prezzo_centesimi": 1000,
-      "descrizione": "Descrizione breve del prodotto di esempio.",
-      "descrizione_completa": "Descrizione completa del prodotto.\nOgni riga diventa un paragrafo.",
+      "id": "weekend-citta",
+      "nome": "Weekend in città",
+      "categoria": "pacchetti-viaggio",
+      "prezzo_centesimi": 0,
+      "descrizione": "Weekend o breve soggiorno in una città d’arte.",
+      "descrizione_completa": "Weekend o breve soggiorno in una città d’arte.",
       "immagine": "",
-      "icona": "🛍️",
-      "visibile": true,
+      "icona": "✈️",
+      "visibile": false,
       "tr": {
         "en": {
-          "nome": "Example product",
-          "descrizione": "Short description of the example product.",
-          "descrizione_completa": "Full description of the product.\nEach line becomes a paragraph."
+          "nome": "City weekend",
+          "descrizione": "A weekend or short stay in an art city.",
+          "descrizione_completa": "A weekend or short stay in an art city."
+        }
+      }
+    },
+    {
+      "tipo": "digitale",
+      "id": "settimana-mare",
+      "nome": "Settimana al mare",
+      "categoria": "pacchetti-viaggio",
+      "prezzo_centesimi": 0,
+      "descrizione": "Una settimana di vacanza al mare.",
+      "descrizione_completa": "Una settimana di vacanza al mare.",
+      "immagine": "",
+      "icona": "✈️",
+      "visibile": false,
+      "tr": {
+        "en": {
+          "nome": "Week at the beach",
+          "descrizione": "A week-long beach holiday.",
+          "descrizione_completa": "A week-long beach holiday."
+        }
+      }
+    },
+    {
+      "tipo": "digitale",
+      "id": "viaggio-nozze",
+      "nome": "Viaggio di nozze",
+      "categoria": "pacchetti-viaggio",
+      "prezzo_centesimi": 0,
+      "descrizione": "Viaggio di nozze costruito sulle vostre richieste.",
+      "descrizione_completa": "Viaggio di nozze costruito sulle vostre richieste.",
+      "immagine": "",
+      "icona": "✈️",
+      "visibile": false,
+      "tr": {
+        "en": {
+          "nome": "Honeymoon",
+          "descrizione": "A honeymoon built around your requests.",
+          "descrizione_completa": "A honeymoon built around your requests."
+        }
+      }
+    },
+    {
+      "tipo": "digitale",
+      "id": "viaggio-su-misura",
+      "nome": "Viaggio su misura",
+      "categoria": "pacchetti-viaggio",
+      "prezzo_centesimi": 0,
+      "descrizione": "Viaggio costruito su misura per te.",
+      "descrizione_completa": "Viaggio costruito su misura per te.",
+      "immagine": "",
+      "icona": "✈️",
+      "visibile": false,
+      "tr": {
+        "en": {
+          "nome": "Tailor-made trip",
+          "descrizione": "A trip built to measure for you.",
+          "descrizione_completa": "A trip built to measure for you."
         }
       }
     }

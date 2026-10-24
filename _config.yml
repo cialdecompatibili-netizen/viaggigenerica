@@ -73,6 +73,9 @@ future: true
 # servizi / progetti -> collezioni opzionali (cartelle _servizi/ e _progetti/ da creare se servono,
 #                       gestite da admin > Servizi / Progetti). Se la cartella non esiste: nessun effetto.
 collections:
+  pacchetti:
+    output: true
+    permalink: /pacchetti/:name/
   negozio:
     output: true
     permalink: /negozio/:name/

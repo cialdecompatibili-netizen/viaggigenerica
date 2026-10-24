@@ -1,0 +1,4 @@
+{%- capture ps_cref -%}cat-{{ page.cat }}{%- endcapture -%}
+{%- capture ps_cat -%}{% include url-ref.html ref=ps_cref %}{%- endcapture -%}
+{% if page.foto %}<figure class="nv-fig"><img src="{{ page.foto | relative_url }}" alt="{{ page.title | escape }}" decoding="async" fetchpriority="high"></figure>{% endif %}
+<p class="nv-badges"><a href="{{ ps_cat }}">{{ page.cat_nome }}</a>{% if page.prezzo %}<span>{{ page.prezzo }}</span>{% endif %}</p>

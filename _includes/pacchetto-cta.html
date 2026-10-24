@@ -1,0 +1,28 @@
+{%- comment -%} Blocco finale delle schede pacchetto, IT/EN (lingua = page.lang). Link per ref con url-ref. {%- endcomment -%}
+{%- assign cta_l = page.lang | default: "it" -%}
+{%- capture cta_c -%}{% include url-ref.html ref="contatti" %}{%- endcapture -%}
+{% if cta_l == "en" %}
+{%- capture wa_txt -%}Hello, I would like a quote for: {{ page.title }}{%- endcapture -%}
+<div class="nv-box">
+  <h2 class="nv-h">How to ask for a quote</h2>
+  <ol>
+    <li>Write to us on WhatsApp or through the form with the dates and the number of people.</li>
+    <li>We send you a free quote with no obligation, stating what is included and what is not.</li>
+    <li>If you like it, we agree the steps to confirm the booking.</li>
+  </ol>
+  <p class="nv-act">{% if site.whatsapp != "" or site.whatsapp_demo %}<a class="nv-btn nv-btn-k" href="{% if site.whatsapp != '' %}https://wa.me/{{ site.whatsapp }}?text={{ wa_txt | url_encode }}{% else %}#{% endif %}"{% if site.whatsapp == '' %} onclick="return false;"{% endif %} target="_blank" rel="noopener">Write to us on WhatsApp</a>{% endif %}<a class="nv-btn nv-btn-o" href="{{ cta_c }}">Contact form</a></p>
+</div>
+<p class="nv-nota">Prices, dates and availability are indicative and are confirmed in the quote.</p>
+{% else %}
+{%- capture wa_txt -%}Buongiorno, vorrei un preventivo per: {{ page.title }}{%- endcapture -%}
+<div class="nv-box">
+  <h2 class="nv-h">Come chiedere il preventivo</h2>
+  <ol>
+    <li>Scrivici su WhatsApp o dal modulo con le date e il numero di persone.</li>
+    <li>Ti mandiamo un preventivo gratuito e senza impegno, con cosa è incluso e cosa no.</li>
+    <li>Se ti va bene, concordiamo i passaggi per confermare la prenotazione.</li>
+  </ol>
+  <p class="nv-act">{% if site.whatsapp != "" or site.whatsapp_demo %}<a class="nv-btn nv-btn-k" href="{% if site.whatsapp != '' %}https://wa.me/{{ site.whatsapp }}?text={{ wa_txt | url_encode }}{% else %}#{% endif %}"{% if site.whatsapp == '' %} onclick="return false;"{% endif %} target="_blank" rel="noopener">Scrivici su WhatsApp</a>{% endif %}<a class="nv-btn nv-btn-o" href="{{ cta_c }}">Modulo contatti</a></p>
+</div>
+<p class="nv-nota">Prezzi, date e disponibilità sono indicativi e vengono confermati nel preventivo.</p>
+{% endif %}

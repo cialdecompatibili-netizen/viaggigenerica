@@ -3,42 +3,54 @@
     "id": "hero",
     "nome": "Hero",
     "enabled": true,
-    "html": "<div class=\"gc\"><section class=\"ent-hero\"><div class=\"gc-wrap gc-hero-in\"><div><p class=\"gc-eyebrow\">Il tuo settore, in due parole</p><h1 class=\"gc-h1\">Dì in una riga cosa fai, <em>senza giri di parole.</em></h1><p class=\"gc-lead\">Racconta in due righe chi sei, che problema risolvi e per chi. Scrivila come la diresti a voce a un cliente: semplice e diretta.</p><div class=\"gc-act\"><a class=\"gc-btn gc-btn-a\" href=\"__BASEURL__/contatti/\">Scrivici</a><a class=\"gc-btn gc-btn-o\" href=\"__BASEURL__/servizi/\">Vedi cosa facciamo</a></div></div><div class=\"ent-cycle\"><div><b>Ci racconti cosa ti serve</b><span>Senza impegno, anche solo per capire da dove partire</span></div><div><b>Ti proponiamo una soluzione</b><span>Chiara, con tempi e costi detti prima</span></div><div><b>Ci mettiamo al lavoro</b><span>Ti aggiorniamo a ogni passaggio</span></div><div><b>Consegna e assistenza</b><span>Restiamo a disposizione anche dopo</span></div></div></div></section></div>"
+    "html": "<div class=\"gc\"><section class=\"ent-hero\"><div class=\"gc-wrap gc-hero-in\"><div><p class=\"gc-eyebrow\">Agenzia viaggi online</p><h1 class=\"gc-h1\">Viaggi e vacanze <em>organizzati per te, online.</em></h1><p class=\"gc-lead\">Pacchetti, tour e viaggi su misura: scegli una proposta o raccontaci cosa cerchi, ti rispondiamo con un preventivo gratuito.</p><div class=\"gc-act\"><a class=\"gc-btn gc-btn-a\" href=\"__BASEURL__/pacchetti/\">Scopri i viaggi</a><a class=\"gc-btn gc-btn-o\" href=\"#come-funziona\">Come funziona</a></div></div><div class=\"ent-cycle\"><div><b>6 tipi di viaggio</b><span>dal mare ai viaggi di nozze</span></div><div><b>Preventivo gratuito</b><span>senza impegno</span></div><div><b>Contatto diretto</b><span>WhatsApp e modulo online</span></div></div></div></section></div>"
   },
   {
-    "id": "contesto",
-    "nome": "Il contesto",
+    "id": "sintesi",
+    "nome": "In sintesi",
     "enabled": true,
-    "html": "<div class=\"gc\"><section class=\"gc-sec\" id=\"contesto\"><div class=\"gc-wrap\"><p class=\"gc-eyebrow\">Qualche numero</p><h2 class=\"gc-h2\">Perché è un tema che conta</h2><p class=\"gc-lead\">Una frase che spiega il contesto, con un dato vero e la sua fonte. Se non ne hai, togli questa fascia.</p><div class=\"ent-stats\"><div><b>00</b><span>Dato da inserire</span></div><div><b>00</b><span>Dato da inserire</span></div><div><b>00</b><span>Dato da inserire</span></div></div><p class=\"ent-src\">Fonte: scrivi da dove arriva il dato.</p></div></section></div>"
+    "html": "<div class=\"gc\"><section class=\"gc-sec gc-soft vn-chips\" id=\"sintesi\"><div class=\"gc-wrap\"><div class=\"gc-badges\"><span class=\"gc-badge\">Pacchetti e viaggi su misura</span><span class=\"gc-badge\">Preventivo gratuito</span><span class=\"gc-badge\">Richiesta e prenotazione online</span><span class=\"gc-badge\">Risposta via WhatsApp o modulo</span><span class=\"gc-badge\">Gruppi, scuole e aziende</span></div></div></section></div>"
   },
   {
-    "id": "servizi",
-    "nome": "Servizi",
+    "id": "categorie",
+    "nome": "Tipi di viaggio",
     "enabled": true,
-    "html": "<div class=\"gc\"><section class=\"gc-sec gc-soft\" id=\"servizi\"><div class=\"gc-wrap\"><p class=\"gc-eyebrow\">Cosa facciamo</p><h2 class=\"gc-h2\">Come possiamo darti una mano</h2><div class=\"gc-plat ent-4\"><div class=\"gc-pl ent-pl\"><span class=\"n\">01</span><b>Il servizio principale</b><ul><li>Cosa comprende</li><li>A chi è utile</li><li>Cosa ottieni</li></ul></div><div class=\"gc-pl ent-pl\"><span class=\"n\">02</span><b>Un secondo servizio</b><ul><li>Cosa comprende</li><li>A chi è utile</li><li>Cosa ottieni</li></ul></div><div class=\"gc-pl ent-pl\"><span class=\"n\">03</span><b>Un terzo servizio</b><ul><li>Cosa comprende</li><li>A chi è utile</li><li>Cosa ottieni</li></ul></div><div class=\"gc-pl ent-pl\"><span class=\"n\">04</span><b>Un quarto servizio</b><ul><li>Cosa comprende</li><li>A chi è utile</li><li>Cosa ottieni</li></ul></div></div><p style=\"margin-top:1.6rem\"><a class=\"gc-link\" href=\"__BASEURL__/servizi/\">Guarda tutti i servizi</a></p></div></section></div>"
+    "html": "<div class=\"gc\"><section class=\"gc-sec\" id=\"categorie\"><div class=\"gc-wrap\"><div class=\"nv-head\"><div><p class=\"gc-eyebrow\">Cosa organizziamo</p><h2 class=\"gc-h2\">Scegli il tuo tipo di viaggio</h2></div><a class=\"gc-link\" href=\"__BASEURL__/pacchetti/\">Tutti i viaggi</a></div><div class=\"nv-cats\"><a class=\"nv-cat nv-cat-n\" href=\"__BASEURL__/pacchetti/mare-vacanze/\"><span class=\"nv-cat-t\"><b>Mare e vacanze</b><span>Settimane al mare e vacanze in resort, in Italia e all&#39;estero.</span></span></a><a class=\"nv-cat nv-cat-n\" href=\"__BASEURL__/pacchetti/citta-weekend/\"><span class=\"nv-cat-t\"><b>Citt&#224; e weekend</b><span>Weekend e brevi soggiorni nelle citt&#224; d&#39;arte, con trasporto e hotel.</span></span></a><a class=\"nv-cat nv-cat-n\" href=\"__BASEURL__/pacchetti/tour-organizzati/\"><span class=\"nv-cat-t\"><b>Tour organizzati</b><span>Circuiti con itinerario gi&#224; pronto, in Italia e nel mondo.</span></span></a><a class=\"nv-cat nv-cat-n\" href=\"__BASEURL__/pacchetti/crociere/\"><span class=\"nv-cat-t\"><b>Crociere</b><span>Itinerari in nave: scegli la rotta, alla prenotazione pensiamo noi.</span></span></a><a class=\"nv-cat nv-cat-n\" href=\"__BASEURL__/pacchetti/viaggi-di-nozze/\"><span class=\"nv-cat-t\"><b>Viaggi di nozze</b><span>Proposte romantiche costruite sui vostri tempi e sul vostro budget.</span></span></a><a class=\"nv-cat nv-cat-n\" href=\"__BASEURL__/pacchetti/famiglie/\"><span class=\"nv-cat-t\"><b>Vacanze in famiglia</b><span>Soluzioni pensate per chi viaggia con bambini.</span></span></a><a class=\"nv-cat nv-cat-n\" href=\"__BASEURL__/su-misura/\"><span class=\"nv-cat-t\"><b>Viaggi su misura</b><span>Raccontaci cosa cerchi: costruiamo l&#39;itinerario con te.</span></span></a><a class=\"nv-cat nv-cat-n\" href=\"__BASEURL__/su-misura/\"><span class=\"nv-cat-t\"><b>Gruppi, scuole e aziende</b><span>Viaggi di gruppo, gite scolastiche e viaggi aziendali: preventivo dedicato.</span></span></a></div></div></section></div>"
   },
   {
-    "id": "perchi",
-    "nome": "Per chi",
+    "id": "come-funziona",
+    "nome": "Come funziona",
     "enabled": true,
-    "html": "<div class=\"gc\"><section class=\"gc-sec\" id=\"perchi\"><div class=\"gc-wrap\"><p class=\"gc-eyebrow\">A chi ci rivolgiamo</p><h2 class=\"gc-h2\">Chi si trova bene con noi</h2><div class=\"gc-plat ent-4\"><div class=\"gc-pl ent-pl\"><b>Privati</b><ul><li>Una situazione in cui ci cercano spesso</li><li>Una richiesta tipica</li></ul></div><div class=\"gc-pl ent-pl\"><b>Professionisti</b><ul><li>Una situazione in cui ci cercano spesso</li><li>Una richiesta tipica</li></ul></div><div class=\"gc-pl ent-pl\"><b>Piccole aziende</b><ul><li>Una situazione in cui ci cercano spesso</li><li>Una richiesta tipica</li></ul></div><div class=\"gc-pl ent-pl\"><b>Enti e associazioni</b><ul><li>Una situazione in cui ci cercano spesso</li><li>Una richiesta tipica</li></ul></div></div></div></section></div>"
+    "html": "<div class=\"gc\"><section class=\"gc-sec gc-soft\" id=\"come-funziona\"><div class=\"gc-wrap\"><p class=\"gc-eyebrow\">Come funziona</p><h2 class=\"gc-h2\">Dalla richiesta alla partenza, tutto online</h2><p class=\"gc-lead\">Non serve venire in ufficio: scegli o descrivi il viaggio, ricevi la proposta e prenoti a distanza.</p><div class=\"gc-plat\"><div class=\"gc-pl\"><span class=\"n\">1</span><b>Scegli o raccontaci</b><p>Trovi la proposta che ti piace oppure ci scrivi meta, periodo e numero di persone.</p></div><div class=\"gc-pl\"><span class=\"n\">2</span><b>Ricevi la proposta</b><p>Ti mandiamo un preventivo chiaro, con cosa &#232; incluso e cosa no.</p></div><div class=\"gc-pl\"><span class=\"n\">3</span><b>Prenoti e parti</b><p>Confermi la proposta e ti seguiamo fino alla partenza.</p></div></div></div></section></div>"
   },
   {
-    "id": "metodo",
-    "nome": "Come lavoriamo",
+    "id": "perche",
+    "nome": "Perche noi",
     "enabled": true,
-    "html": "<div class=\"gc\"><section class=\"gc-sec gc-soft\" id=\"metodo\"><div class=\"gc-wrap\"><p class=\"gc-eyebrow\">Come lavoriamo</p><h2 class=\"gc-h2\">Dalla prima chiamata alla consegna</h2><div class=\"gc-plat ent-4\"><div class=\"gc-pl\"><span class=\"n\">01</span><b>Ci parliamo</b><p>Ascoltiamo cosa ti serve, senza impegno.</p></div><div class=\"gc-pl\"><span class=\"n\">02</span><b>Ti facciamo una proposta</b><p>Tempi e costi chiari, prima di iniziare.</p></div><div class=\"gc-pl\"><span class=\"n\">03</span><b>Ci mettiamo al lavoro</b><p>Ti teniamo aggiornato a ogni passaggio.</p></div><div class=\"gc-pl\"><span class=\"n\">04</span><b>Consegniamo e restiamo a disposizione</b><p>Se dopo serve qualcosa, ci trovi.</p></div></div></div></section></div>"
+    "html": "<div class=\"gc\"><section class=\"gc-sec\" id=\"perche\"><div class=\"gc-wrap\"><p class=\"gc-eyebrow\">Perch&#233; prenotare da noi</p><h2 class=\"gc-h2\">Un modo semplice di organizzare il viaggio</h2><div class=\"gc-plat ent-4\"><div class=\"gc-pl\"><b>Proposte chiare</b><p>Ogni preventivo indica cosa &#232; compreso e cosa no, senza sorprese nascoste.</p></div><div class=\"gc-pl\"><b>Anche su misura</b><p>Se non trovi il pacchetto giusto lo costruiamo con te.</p></div><div class=\"gc-pl\"><b>Tutto a distanza</b><p>Richieste e prenotazioni online, con risposta via WhatsApp o dal modulo.</p></div><div class=\"gc-pl\"><b>Per ogni gruppo</b><p>Coppie, famiglie, amici, scuole e aziende.</p></div></div></div></section></div>"
   },
   {
-    "id": "avvisi",
-    "nome": "Blog",
+    "id": "su-misura",
+    "nome": "Su misura",
     "enabled": true,
-    "html": "<div class=\"gc\"><section class=\"gc-sec\" id=\"avvisi\"><div class=\"gc-wrap gc-2c\"><div><p class=\"gc-eyebrow\">Dal blog</p><h2 class=\"gc-h2\">Cose che ti possono servire</h2><p class=\"gc-lead\">Guide brevi e novità, scritte in modo semplice.</p><a class=\"gc-btn gc-btn-k\" href=\"__BASEURL__/blog/\">Vai al blog</a></div><div class=\"gc-pl\"><span class=\"n\">ULTIMO ARTICOLO</span><b>Il titolo del tuo ultimo articolo</b><p>Due righe per far venire voglia di leggerlo.</p></div></div></section></div>"
+    "html": "<div class=\"gc\"><section class=\"gc-sec gc-soft\" id=\"su-misura\"><div class=\"gc-wrap\"><p class=\"gc-eyebrow\">Su misura</p><h2 class=\"gc-h2\">Hai un&#39;idea di viaggio? La costruiamo con te</h2><p class=\"gc-lead\">Dicci la meta (anche solo un&#39;idea), il periodo, quante persone siete e il budget: ti rispondiamo con una proposta.</p><ul class=\"gc-list\"><li>Viaggi di coppia, di famiglia e tra amici</li><li>Gite scolastiche e viaggi per associazioni</li><li>Viaggi aziendali, incentive e team building</li></ul><p style=\"margin-top:1.6rem\"><a class=\"gc-btn gc-btn-k\" href=\"__BASEURL__/su-misura/\">Chiedi un preventivo</a></p></div></section></div>"
   },
   {
-    "id": "contatti",
+    "id": "faq",
+    "nome": "Domande frequenti",
+    "enabled": true,
+    "html": "<div class=\"gc\"><section class=\"gc-sec\" id=\"faq\"><div class=\"gc-wrap\"><p class=\"gc-eyebrow\">FAQ</p><h2 class=\"gc-h2\">Domande frequenti</h2><div class=\"vn-faq\"><details><summary>Come si prenota?</summary><p>Scrivici dal modulo o su WhatsApp: ti rispondiamo con una proposta e, se ti va bene, concordiamo i passaggi per confermare.</p></details><details><summary>Il preventivo &#232; gratuito?</summary><p>S&#236;, il preventivo &#232; gratuito e senza impegno.</p></details><details><summary>Posso chiedere un viaggio che non vedo sul sito?</summary><p>Certo: i viaggi su misura sono il nostro modo normale di lavorare. <a href=\"__BASEURL__/su-misura/\">Chiedi un preventivo</a>.</p></details><details><summary>Cosa &#232; incluso nel prezzo?</summary><p>Ogni proposta indica con chiarezza cosa &#232; compreso e cosa no. Se qualcosa non &#232; chiaro, chiedici.</p></details></div></div></section></div>"
+  },
+  {
+    "id": "richiesta",
     "nome": "Contatti",
     "enabled": true,
-    "html": "<div class=\"gc\"><section class=\"gc-sec gc-dark\" id=\"contatti\"><div class=\"gc-wrap\"><p class=\"gc-eyebrow\">Contatti</p><h2 class=\"gc-h2\">Scriviamoci</h2><p class=\"gc-lead\">Raccontaci di cosa hai bisogno, ti rispondiamo appena possibile.</p><a class=\"gc-btn\" href=\"__BASEURL__/contatti/\">Scrivici</a></div></section></div>"
+    "html": "<div class=\"gc\"><section class=\"gc-sec gc-dark\" id=\"richiesta\"><div class=\"gc-wrap\"><p class=\"gc-eyebrow\">Contatti</p><h2 class=\"gc-h2\">Dove vuoi andare?</h2><p class=\"gc-lead\">Scrivici la meta, il periodo e quante persone siete: ti rispondiamo con una proposta.</p><a class=\"gc-btn\" href=\"__BASEURL__/contatti/\">Contattaci</a></div></section></div>"
+  },
+  {
+    "id": "barra",
+    "nome": "Barra contatto mobile",
+    "enabled": true,
+    "html": "<div class=\"vn-bar\"><a class=\"gc-btn gc-btn-a\" href=\"__BASEURL__/pacchetti/\">Scopri i viaggi</a></div>"
   }
 ]

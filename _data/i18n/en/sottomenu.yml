@@ -1,1 +1,18 @@
 # English dropdown menus (empty = none). Each key must be IDENTICAL to a title in navigation.yml of this folder.
+
+Trips:
+  - title: "All trips"
+    url: /en/packages/
+  - divider: true
+  - title: "Beach and holidays"
+    url: /en/packages/beach-and-holidays/
+  - title: "City breaks and weekends"
+    url: /en/packages/city-breaks-and-weekends/
+  - title: "Escorted tours"
+    url: /en/packages/escorted-tours/
+  - title: "Cruises"
+    url: /en/packages/cruises/
+  - title: "Honeymoons"
+    url: /en/packages/honeymoons/
+  - title: "Family holidays"
+    url: /en/packages/family-holidays/

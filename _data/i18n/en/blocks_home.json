@@ -3,42 +3,54 @@
     "id": "hero",
     "nome": "Hero",
     "enabled": true,
-    "html": "<div class=\"gc\"><section class=\"ent-hero\"><div class=\"gc-wrap gc-hero-in\"><div><p class=\"gc-eyebrow\">Your field, in a few words</p><h1 class=\"gc-h1\">Say what you do in one line, <em>no jargon.</em></h1><p class=\"gc-lead\">Tell visitors in a couple of lines who you are, what problem you solve and for whom. Write it the way you would say it to a client in person: simple and direct.</p><div class=\"gc-act\"><a class=\"gc-btn gc-btn-a\" href=\"__BASEURL__/en/contact/\">Get in touch</a><a class=\"gc-btn gc-btn-o\" href=\"__BASEURL__/en/services/\">See what we do</a></div></div><div class=\"ent-cycle\"><div><b>Tell us what you need</b><span>No strings attached, even just to work out where to start</span></div><div><b>We suggest a solution</b><span>Clear, with timing and costs agreed upfront</span></div><div><b>We get to work</b><span>We keep you posted at every step</span></div><div><b>Delivery and support</b><span>We are still around afterwards</span></div></div></div></section></div>"
+    "html": "<div class=\"gc\"><section class=\"ent-hero\"><div class=\"gc-wrap gc-hero-in\"><div><p class=\"gc-eyebrow\">Online travel agency</p><h1 class=\"gc-h1\">Trips and holidays <em>organised for you, online.</em></h1><p class=\"gc-lead\">Packages, tours and tailor-made trips: pick a proposal or tell us what you are looking for, and we reply with a free quote.</p><div class=\"gc-act\"><a class=\"gc-btn gc-btn-a\" href=\"__BASEURL__/en/packages/\">Discover the trips</a><a class=\"gc-btn gc-btn-o\" href=\"#come-funziona\">How it works</a></div></div><div class=\"ent-cycle\"><div><b>6 kinds of trip</b><span>from the beach to honeymoons</span></div><div><b>Free quote</b><span>no obligation</span></div><div><b>Direct contact</b><span>WhatsApp and online form</span></div></div></div></section></div>"
   },
   {
-    "id": "contesto",
-    "nome": "Context",
+    "id": "sintesi",
+    "nome": "In sintesi",
     "enabled": true,
-    "html": "<div class=\"gc\"><section class=\"gc-sec\" id=\"contesto\"><div class=\"gc-wrap\"><p class=\"gc-eyebrow\">A few numbers</p><h2 class=\"gc-h2\">Why it matters</h2><p class=\"gc-lead\">One sentence setting the scene, with a real figure and its source. If you have none, remove this strip.</p><div class=\"ent-stats\"><div><b>00</b><span>Figure to add</span></div><div><b>00</b><span>Figure to add</span></div><div><b>00</b><span>Figure to add</span></div></div><p class=\"ent-src\">Source: say where the figure comes from.</p></div></section></div>"
+    "html": "<div class=\"gc\"><section class=\"gc-sec gc-soft vn-chips\" id=\"sintesi\"><div class=\"gc-wrap\"><div class=\"gc-badges\"><span class=\"gc-badge\">Packages and tailor-made trips</span><span class=\"gc-badge\">Free quote</span><span class=\"gc-badge\">Request and book online</span><span class=\"gc-badge\">Reply via WhatsApp or form</span><span class=\"gc-badge\">Groups, schools and companies</span></div></div></section></div>"
   },
   {
-    "id": "servizi",
-    "nome": "Services",
+    "id": "categorie",
+    "nome": "Tipi di viaggio",
     "enabled": true,
-    "html": "<div class=\"gc\"><section class=\"gc-sec gc-soft\" id=\"servizi\"><div class=\"gc-wrap\"><p class=\"gc-eyebrow\">What we do</p><h2 class=\"gc-h2\">How we can help</h2><div class=\"gc-plat ent-4\"><div class=\"gc-pl ent-pl\"><span class=\"n\">01</span><b>The main service</b><ul><li>What it includes</li><li>Who it is for</li><li>What you get</li></ul></div><div class=\"gc-pl ent-pl\"><span class=\"n\">02</span><b>A second service</b><ul><li>What it includes</li><li>Who it is for</li><li>What you get</li></ul></div><div class=\"gc-pl ent-pl\"><span class=\"n\">03</span><b>A third service</b><ul><li>What it includes</li><li>Who it is for</li><li>What you get</li></ul></div><div class=\"gc-pl ent-pl\"><span class=\"n\">04</span><b>A fourth service</b><ul><li>What it includes</li><li>Who it is for</li><li>What you get</li></ul></div></div><p style=\"margin-top:1.6rem\"><a class=\"gc-link\" href=\"__BASEURL__/en/services/\">See all our services</a></p></div></section></div>"
+    "html": "<div class=\"gc\"><section class=\"gc-sec\" id=\"categorie\"><div class=\"gc-wrap\"><div class=\"nv-head\"><div><p class=\"gc-eyebrow\">What we organise</p><h2 class=\"gc-h2\">Choose your kind of trip</h2></div><a class=\"gc-link\" href=\"__BASEURL__/en/packages/\">All trips</a></div><div class=\"nv-cats\"><a class=\"nv-cat nv-cat-n\" href=\"__BASEURL__/en/packages/beach-and-holidays/\"><span class=\"nv-cat-t\"><b>Beach and holidays</b><span>Week-long beach holidays and resort stays, in Italy and abroad.</span></span></a><a class=\"nv-cat nv-cat-n\" href=\"__BASEURL__/en/packages/city-breaks-and-weekends/\"><span class=\"nv-cat-t\"><b>City breaks and weekends</b><span>Weekends and short stays in art cities, with transport and hotel.</span></span></a><a class=\"nv-cat nv-cat-n\" href=\"__BASEURL__/en/packages/escorted-tours/\"><span class=\"nv-cat-t\"><b>Escorted tours</b><span>Round trips with a ready-made itinerary, in Italy and around the world.</span></span></a><a class=\"nv-cat nv-cat-n\" href=\"__BASEURL__/en/packages/cruises/\"><span class=\"nv-cat-t\"><b>Cruises</b><span>Itineraries by ship: choose the route, we take care of the booking.</span></span></a><a class=\"nv-cat nv-cat-n\" href=\"__BASEURL__/en/packages/honeymoons/\"><span class=\"nv-cat-t\"><b>Honeymoons</b><span>Romantic proposals built around your dates and your budget.</span></span></a><a class=\"nv-cat nv-cat-n\" href=\"__BASEURL__/en/packages/family-holidays/\"><span class=\"nv-cat-t\"><b>Family holidays</b><span>Solutions designed for those travelling with children.</span></span></a><a class=\"nv-cat nv-cat-n\" href=\"__BASEURL__/en/tailor-made/\"><span class=\"nv-cat-t\"><b>Tailor-made trips</b><span>Tell us what you are looking for: we build the itinerary with you.</span></span></a><a class=\"nv-cat nv-cat-n\" href=\"__BASEURL__/en/tailor-made/\"><span class=\"nv-cat-t\"><b>Groups, schools and companies</b><span>Group trips, school trips and corporate travel: a dedicated quote.</span></span></a></div></div></section></div>"
   },
   {
-    "id": "perchi",
-    "nome": "Who we work for",
+    "id": "come-funziona",
+    "nome": "Come funziona",
     "enabled": true,
-    "html": "<div class=\"gc\"><section class=\"gc-sec\" id=\"perchi\"><div class=\"gc-wrap\"><p class=\"gc-eyebrow\">Who we help</p><h2 class=\"gc-h2\">Who works well with us</h2><div class=\"gc-plat ent-4\"><div class=\"gc-pl ent-pl\"><b>Individuals</b><ul><li>A situation where people often look for us</li><li>A typical request</li></ul></div><div class=\"gc-pl ent-pl\"><b>Professionals</b><ul><li>A situation where people often look for us</li><li>A typical request</li></ul></div><div class=\"gc-pl ent-pl\"><b>Small businesses</b><ul><li>A situation where people often look for us</li><li>A typical request</li></ul></div><div class=\"gc-pl ent-pl\"><b>Organisations and associations</b><ul><li>A situation where people often look for us</li><li>A typical request</li></ul></div></div></div></section></div>"
+    "html": "<div class=\"gc\"><section class=\"gc-sec gc-soft\" id=\"come-funziona\"><div class=\"gc-wrap\"><p class=\"gc-eyebrow\">How it works</p><h2 class=\"gc-h2\">From request to departure, all online</h2><p class=\"gc-lead\">No need to come to an office: choose or describe the trip, receive the proposal and book remotely.</p><div class=\"gc-plat\"><div class=\"gc-pl\"><span class=\"n\">1</span><b>Choose or tell us</b><p>Find the proposal you like, or write to us with destination, period and number of people.</p></div><div class=\"gc-pl\"><span class=\"n\">2</span><b>Receive the proposal</b><p>We send you a clear quote, with what is included and what is not.</p></div><div class=\"gc-pl\"><span class=\"n\">3</span><b>Book and go</b><p>You confirm the proposal and we follow you until departure.</p></div></div></div></section></div>"
   },
   {
-    "id": "metodo",
-    "nome": "How we work",
+    "id": "perche",
+    "nome": "Perche noi",
     "enabled": true,
-    "html": "<div class=\"gc\"><section class=\"gc-sec gc-soft\" id=\"metodo\"><div class=\"gc-wrap\"><p class=\"gc-eyebrow\">How we work</p><h2 class=\"gc-h2\">From the first call to delivery</h2><div class=\"gc-plat ent-4\"><div class=\"gc-pl\"><span class=\"n\">01</span><b>We talk</b><p>We listen to what you need, no commitment.</p></div><div class=\"gc-pl\"><span class=\"n\">02</span><b>We send a proposal</b><p>Clear timing and costs before we begin.</p></div><div class=\"gc-pl\"><span class=\"n\">03</span><b>We get to work</b><p>We keep you updated along the way.</p></div><div class=\"gc-pl\"><span class=\"n\">04</span><b>We deliver and stay available</b><p>If you need anything afterwards, we are here.</p></div></div></div></section></div>"
+    "html": "<div class=\"gc\"><section class=\"gc-sec\" id=\"perche\"><div class=\"gc-wrap\"><p class=\"gc-eyebrow\">Why book with us</p><h2 class=\"gc-h2\">A simple way to organise your trip</h2><div class=\"gc-plat ent-4\"><div class=\"gc-pl\"><b>Clear proposals</b><p>Every quote states what is included and what is not, with no hidden surprises.</p></div><div class=\"gc-pl\"><b>Tailor-made too</b><p>If you cannot find the right package, we build it with you.</p></div><div class=\"gc-pl\"><b>All remote</b><p>Requests and bookings online, with replies via WhatsApp or the form.</p></div><div class=\"gc-pl\"><b>For every group</b><p>Couples, families, friends, schools and companies.</p></div></div></div></section></div>"
   },
   {
-    "id": "avvisi",
-    "nome": "Blog",
+    "id": "su-misura",
+    "nome": "Su misura",
     "enabled": true,
-    "html": "<div class=\"gc\"><section class=\"gc-sec\" id=\"avvisi\"><div class=\"gc-wrap gc-2c\"><div><p class=\"gc-eyebrow\">From the blog</p><h2 class=\"gc-h2\">Things you might find useful</h2><p class=\"gc-lead\">Short guides and news, written in plain language.</p><a class=\"gc-btn gc-btn-k\" href=\"__BASEURL__/en/blog/\">Go to the blog</a></div><div class=\"gc-pl\"><span class=\"n\">LATEST ARTICLE</span><b>The title of your latest article</b><p>A couple of lines to make people want to read it.</p></div></div></section></div>"
+    "html": "<div class=\"gc\"><section class=\"gc-sec gc-soft\" id=\"su-misura\"><div class=\"gc-wrap\"><p class=\"gc-eyebrow\">Tailor-made</p><h2 class=\"gc-h2\">Have a trip in mind? We build it with you</h2><p class=\"gc-lead\">Tell us the destination (even just an idea), the period, how many of you there are and the budget: we reply with a proposal.</p><ul class=\"gc-list\"><li>Trips for couples, families and friends</li><li>School trips and trips for associations</li><li>Corporate trips, incentives and team building</li></ul><p style=\"margin-top:1.6rem\"><a class=\"gc-btn gc-btn-k\" href=\"__BASEURL__/en/tailor-made/\">Ask for a quote</a></p></div></section></div>"
   },
   {
-    "id": "contatti",
-    "nome": "Contact",
+    "id": "faq",
+    "nome": "Domande frequenti",
     "enabled": true,
-    "html": "<div class=\"gc\"><section class=\"gc-sec gc-dark\" id=\"contatti\"><div class=\"gc-wrap\"><p class=\"gc-eyebrow\">Contact</p><h2 class=\"gc-h2\">Let&#39;s talk</h2><p class=\"gc-lead\">Tell us what you need and we will get back to you as soon as we can.</p><a class=\"gc-btn\" href=\"__BASEURL__/en/contact/\">Get in touch</a></div></section></div>"
+    "html": "<div class=\"gc\"><section class=\"gc-sec\" id=\"faq\"><div class=\"gc-wrap\"><p class=\"gc-eyebrow\">FAQ</p><h2 class=\"gc-h2\">Frequently asked questions</h2><div class=\"vn-faq\"><details><summary>How do I book?</summary><p>Write to us through the form or on WhatsApp: we reply with a proposal and, if you like it, we agree the steps to confirm.</p></details><details><summary>Is the quote free?</summary><p>Yes, the quote is free and with no obligation.</p></details><details><summary>Can I ask for a trip I cannot see on the site?</summary><p>Of course: tailor-made trips are our normal way of working. <a href=\"__BASEURL__/en/tailor-made/\">Ask for a quote</a>.</p></details><details><summary>What is included in the price?</summary><p>Every proposal clearly states what is included and what is not. If something is unclear, just ask.</p></details></div></div></section></div>"
+  },
+  {
+    "id": "richiesta",
+    "nome": "Contatti",
+    "enabled": true,
+    "html": "<div class=\"gc\"><section class=\"gc-sec gc-dark\" id=\"richiesta\"><div class=\"gc-wrap\"><p class=\"gc-eyebrow\">Contact</p><h2 class=\"gc-h2\">Where do you want to go?</h2><p class=\"gc-lead\">Tell us the destination, the period and how many of you there are: we will reply with a proposal.</p><a class=\"gc-btn\" href=\"__BASEURL__/en/contact/\">Contact us</a></div></section></div>"
+  },
+  {
+    "id": "barra",
+    "nome": "Barra contatto mobile",
+    "enabled": true,
+    "html": "<div class=\"vn-bar\"><a class=\"gc-btn gc-btn-a\" href=\"__BASEURL__/en/packages/\">Discover the trips</a></div>"
   }
 ]

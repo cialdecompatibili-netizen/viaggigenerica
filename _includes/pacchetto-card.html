@@ -1,0 +1,8 @@
+{%- assign t = include.t -%}
+<a class="nv-card" href="{{ t.url | relative_url }}">
+  {% if t.foto %}<span class="nv-card-im"><img src="{{ t.foto | relative_url }}" alt="" loading="lazy" decoding="async"></span>{% else %}<span class="nv-card-im nv-card-n"></span>{% endif %}
+  <span class="nv-card-cat">{{ t.cat_nome }}</span>
+  <span class="nv-card-t">{{ t.title }}</span>
+  <span class="nv-card-d">{{ t.breve }}</span>
+  {% if t.prezzo %}<span class="nv-card-p">{{ t.prezzo }}</span>{% endif %}
+</a>
