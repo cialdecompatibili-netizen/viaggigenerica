@@ -8,7 +8,7 @@ classes: wide
 author_profile: false
 lang: en
 locale: en
-tr: tradotto
+tr: da_aggiornare
 tr_hash: 1sy1oo4
 ---
 
@@ -20,7 +20,10 @@ tr_hash: 1sy1oo4
 <a class="nv-cat nv-cat-n" href="{% include url-ref.html ref="cat-tour-organizzati" %}"><span class="nv-cat-t"><b>Escorted tours</b><span>Round trips with a ready-made itinerary, in Italy and around the world.</span></span></a>
 <a class="nv-cat nv-cat-n" href="{% include url-ref.html ref="cat-crociere" %}"><span class="nv-cat-t"><b>Cruises</b><span>Itineraries by ship: choose the route, we take care of the booking.</span></span></a>
 <a class="nv-cat nv-cat-n" href="{% include url-ref.html ref="cat-viaggi-di-nozze" %}"><span class="nv-cat-t"><b>Honeymoons</b><span>Romantic proposals built around your dates and your budget.</span></span></a>
+<a class="nv-cat nv-cat-n" href="{% include url-ref.html ref="cat-viaggi-di-coppia" %}"><span class="nv-cat-t"><b>Couples' trips</b><span>Romantic escapes, spa weekends and dinners for two.</span></span></a>
 <a class="nv-cat nv-cat-n" href="{% include url-ref.html ref="cat-famiglie" %}"><span class="nv-cat-t"><b>Family holidays</b><span>Solutions designed for those travelling with children.</span></span></a>
+<a class="nv-cat nv-cat-n" href="{% include url-ref.html ref="cat-cene-esperienze" %}"><span class="nv-cat-t"><b>Dinners and experiences</b><span>Traditional dinners, gourmet experiences and moments to give as a gift.</span></span></a>
+<a class="nv-cat nv-cat-n" href="{% include url-ref.html ref="cat-montagna-neve" %}"><span class="nv-cat-t"><b>Mountains and snow</b><span>Ski weeks, trekking and mountain weekends in every season.</span></span></a>
 </div>
 
 <p class="nv-sub">Tailor-made</p>

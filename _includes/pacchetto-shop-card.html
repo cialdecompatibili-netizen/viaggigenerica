@@ -1,0 +1,10 @@
+{%- assign p = include.p -%}
+{%- assign pn = p.nome -%}{%- assign pb = p.descrizione -%}
+{%- if page.lang == 'en' and p.tr.en.nome -%}{%- assign pn = p.tr.en.nome -%}{%- if p.tr.en.descrizione -%}{%- assign pb = p.tr.en.descrizione -%}{%- endif -%}{%- endif -%}
+<a class="nv-card" href="{% include shop-url.html k="prod" id=p.id %}">
+  <span class="nv-card-im nv-card-n"></span>
+  <span class="nv-card-cat">{{ p.icona }} {{ p.luogo }}</span>
+  <span class="nv-card-t">{{ pn }}</span>
+  <span class="nv-card-d">{{ pb }}</span>
+  {% if p.prezzo_centesimi > 0 %}{% assign pe = p.prezzo_centesimi | divided_by: 100 %}<span class="nv-card-p">{% if page.lang == 'en' %}From{% else %}Da{% endif %} {{ pe }} &euro;</span>{% endif %}
+</a>

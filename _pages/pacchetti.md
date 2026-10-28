@@ -16,7 +16,10 @@ author_profile: false
 <a class="nv-cat nv-cat-n" href="{% include url-ref.html ref="cat-tour-organizzati" %}"><span class="nv-cat-t"><b>Tour organizzati</b><span>Circuiti con itinerario già pronto, in Italia e nel mondo.</span></span></a>
 <a class="nv-cat nv-cat-n" href="{% include url-ref.html ref="cat-crociere" %}"><span class="nv-cat-t"><b>Crociere</b><span>Itinerari in nave: scegli la rotta, alla prenotazione pensiamo noi.</span></span></a>
 <a class="nv-cat nv-cat-n" href="{% include url-ref.html ref="cat-viaggi-di-nozze" %}"><span class="nv-cat-t"><b>Viaggi di nozze</b><span>Proposte romantiche costruite sui vostri tempi e sul vostro budget.</span></span></a>
+<a class="nv-cat nv-cat-n" href="{% include url-ref.html ref="cat-viaggi-di-coppia" %}"><span class="nv-cat-t"><b>Viaggi di coppia</b><span>Fughe romantiche, weekend benessere e cene per due.</span></span></a>
 <a class="nv-cat nv-cat-n" href="{% include url-ref.html ref="cat-famiglie" %}"><span class="nv-cat-t"><b>Vacanze in famiglia</b><span>Soluzioni pensate per chi viaggia con bambini.</span></span></a>
+<a class="nv-cat nv-cat-n" href="{% include url-ref.html ref="cat-cene-esperienze" %}"><span class="nv-cat-t"><b>Cene ed esperienze</b><span>Cene tipiche, esperienze gourmet e momenti da regalare.</span></span></a>
+<a class="nv-cat nv-cat-n" href="{% include url-ref.html ref="cat-montagna-neve" %}"><span class="nv-cat-t"><b>Montagna e neve</b><span>Settimana bianca, trekking e weekend in quota in ogni stagione.</span></span></a>
 </div>
 
 <p class="nv-sub">Su misura</p>

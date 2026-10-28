@@ -1,0 +1,11 @@
+{%- comment -%}
+Elenco di una categoria di /pacchetti/: pacchetti della collezione + prodotti dello shop con quel tipo (campo "tipi" in _data/catalogo.json).
+Uso: include pacchetti-lista.html con cat=id-categoria
+{%- endcomment -%}
+{%- assign pl_items = site.pacchetti | where: "cat", include.cat | where: "lang", page.lang | sort: "ordine" -%}
+{%- assign pl_shop = "" | split: "" -%}
+{%- for pl_p in site.data.catalogo.prodotti -%}{%- if pl_p.visibile != false and pl_p.tipi contains include.cat -%}{%- assign pl_shop = pl_shop | push: pl_p -%}{%- endif -%}{%- endfor -%}
+{% if pl_items.size > 0 or pl_shop.size > 0 %}<div class="nv-grid">
+{% for t in pl_items %}{% include pacchetto-card.html t=t %}{% endfor %}
+{% for p in pl_shop %}{% include pacchetto-shop-card.html p=p %}{% endfor %}
+</div>{% elsif page.lang == 'en' %}<p class="nv-vuoto">The proposals in this category are being prepared. Tell us what you are looking for: we will prepare a tailor-made quote.</p>{% else %}<p class="nv-vuoto">Le proposte di questa categoria sono in preparazione. Scrivici cosa cerchi: ti prepariamo un preventivo su misura.</p>{% endif %}

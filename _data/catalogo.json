@@ -72,7 +72,11 @@
           "descrizione_completa": "A traditional dinner in a mountain hut with local produce and one night for two with breakfast.\nA taste of the mountains, reached by snowmobile or on foot depending on the season.\nIndicative starting price: hotel, dates and availability are confirmed with a free, no-obligation quote."
         }
       },
-      "luogo": "Cortina"
+      "luogo": "Cortina",
+      "tipi": [
+        "cene-esperienze",
+        "viaggi-di-coppia"
+      ]
     },
     {
       "id": "fuga-romantica-cortina",
@@ -92,7 +96,10 @@
           "descrizione_completa": "Two nights for two in a 4-star hotel in the centre of Cortina d'Ampezzo.\nBreakfast, spa access and a romantic dinner with a typical Ampezzo menu are included.\nPerfect as a gift or for a special occasion.\nIndicative starting price: hotel, dates and availability are confirmed with a free, no-obligation quote."
         }
       },
-      "luogo": "Cortina"
+      "luogo": "Cortina",
+      "tipi": [
+        "viaggi-di-coppia"
+      ]
     },
     {
       "id": "settimana-bianca-cortina",
@@ -112,7 +119,10 @@
           "descrizione_completa": "Seven nights in Cortina with breakfast and dinner, plus a 6-day Dolomiti Superski lift pass.\nPrice per person in a double room. Equipment rental and ski school on request.\nIndicative starting price: hotel, dates and availability are confirmed with a free, no-obligation quote."
         }
       },
-      "luogo": "Cortina"
+      "luogo": "Cortina",
+      "tipi": [
+        "montagna-neve"
+      ]
     },
     {
       "id": "weekend-spa-cortina",
@@ -132,7 +142,10 @@
           "descrizione_completa": "One night for two with breakfast, a wellness circuit (sauna, steam room, pool) and one massage each.\nA break from routine with Dolomites views.\nIndicative starting price: hotel, dates and availability are confirmed with a free, no-obligation quote."
         }
       },
-      "luogo": "Cortina"
+      "luogo": "Cortina",
+      "tipi": [
+        "viaggi-di-coppia"
+      ]
     },
     {
       "id": "weekend-famiglia-neve-cortina",
@@ -152,7 +165,11 @@
           "descrizione_completa": "Two nights for a family (2 adults and 2 children) with breakfast, a sledging day and an easy guided snowshoe walk.\nPrice per family. Ask for a quote for larger groups.\nIndicative starting price: hotel, dates and availability are confirmed with a free, no-obligation quote."
         }
       },
-      "luogo": "Cortina"
+      "luogo": "Cortina",
+      "tipi": [
+        "famiglie",
+        "montagna-neve"
+      ]
     },
     {
       "id": "weekend-primavera-cortina",
@@ -172,7 +189,11 @@
           "descrizione_completa": "One night for two with breakfast, spa access and an easy guided walk to the lakes around Cortina.\nA quiet spring, away from the crowds.\nIndicative starting price: hotel, dates and availability are confirmed with a free, no-obligation quote."
         }
       },
-      "luogo": "Cortina"
+      "luogo": "Cortina",
+      "tipi": [
+        "viaggi-di-coppia",
+        "montagna-neve"
+      ]
     },
     {
       "id": "trekking-dolomiti-cortina",
@@ -192,7 +213,10 @@
           "descrizione_completa": "Three nights in Cortina with breakfast and a guided hike in the Dolomites, a UNESCO World Heritage site.\nRoutes for all levels, choose between Tre Cime di Lavaredo and Lake Braies.\nIndicative starting price: hotel, dates and availability are confirmed with a free, no-obligation quote."
         }
       },
-      "luogo": "Cortina"
+      "luogo": "Cortina",
+      "tipi": [
+        "montagna-neve"
+      ]
     },
     {
       "id": "autunno-foliage-cortina",
@@ -212,7 +236,11 @@
           "descrizione_completa": "Two nights for two with breakfast, a traditional Ampezzo dinner and a hike among golden larch forests.\nThe season of colours and mountain flavours.\nIndicative starting price: hotel, dates and availability are confirmed with a free, no-obligation quote."
         }
       },
-      "luogo": "Cortina"
+      "luogo": "Cortina",
+      "tipi": [
+        "cene-esperienze",
+        "montagna-neve"
+      ]
     },
     {
       "tipo": "digitale",
