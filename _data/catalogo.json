@@ -63,7 +63,7 @@
       "tipo": "digitale",
       "prezzo_centesimi": 19900,
       "descrizione_completa": "Una cena tipica in rifugio o malga con prodotti locali e una notte per due con colazione.\nUn'esperienza di gusto in quota, con salita in motoslitta o a piedi secondo stagione.\nPrezzo indicativo a partire da: hotel, date e disponibilita' si confermano con un preventivo gratuito, senza impegno.",
-      "immagine": "",
+      "immagine": "assets/images/products/cena-in-rifugio-cortina.jpg",
       "visibile": true,
       "tr": {
         "en": {
@@ -87,7 +87,7 @@
       "tipo": "digitale",
       "prezzo_centesimi": 39900,
       "descrizione_completa": "Due notti per due persone in un hotel 4 stelle nel centro di Cortina d'Ampezzo.\nInclusi colazione, ingresso alla spa e una cena romantica con menu tipico ampezzano.\nIdeale come regalo o per un'occasione speciale.\nPrezzo indicativo a partire da: hotel, date e disponibilita' si confermano con un preventivo gratuito, senza impegno.",
-      "immagine": "",
+      "immagine": "assets/images/products/fuga-romantica-cortina.jpg",
       "visibile": true,
       "tr": {
         "en": {
@@ -110,7 +110,7 @@
       "tipo": "digitale",
       "prezzo_centesimi": 89000,
       "descrizione_completa": "Sette notti a Cortina con colazione e cena, e skipass Dolomiti Superski di 6 giorni.\nPrezzo a persona in camera doppia. Noleggio attrezzatura e scuola sci su richiesta.\nPrezzo indicativo a partire da: hotel, date e disponibilita' si confermano con un preventivo gratuito, senza impegno.",
-      "immagine": "",
+      "immagine": "assets/images/products/settimana-bianca-cortina.jpg",
       "visibile": true,
       "tr": {
         "en": {
@@ -133,7 +133,7 @@
       "tipo": "digitale",
       "prezzo_centesimi": 24900,
       "descrizione_completa": "Una notte per due con colazione, percorso benessere (sauna, bagno turco, piscina) e un massaggio a testa.\nPer staccare dalla routine con vista sulle Dolomiti.\nPrezzo indicativo a partire da: hotel, date e disponibilita' si confermano con un preventivo gratuito, senza impegno.",
-      "immagine": "",
+      "immagine": "assets/images/products/weekend-spa-cortina.jpg",
       "visibile": true,
       "tr": {
         "en": {
@@ -156,7 +156,7 @@
       "tipo": "digitale",
       "prezzo_centesimi": 49900,
       "descrizione_completa": "Due notti per una famiglia (2 adulti e 2 bambini) con colazione, giornata di slittino e ciaspolata facile con guida.\nPrezzo a famiglia. Per gruppi piu' grandi chiedi un preventivo.\nPrezzo indicativo a partire da: hotel, date e disponibilita' si confermano con un preventivo gratuito, senza impegno.",
-      "immagine": "",
+      "immagine": "assets/images/products/weekend-famiglia-neve-cortina.jpg",
       "visibile": true,
       "tr": {
         "en": {
@@ -180,7 +180,7 @@
       "tipo": "digitale",
       "prezzo_centesimi": 22900,
       "descrizione_completa": "Una notte per due con colazione, ingresso alla spa e una passeggiata guidata facile verso i laghi della conca ampezzana.\nPrimavera tranquilla, lontano dalla folla.\nPrezzo indicativo a partire da: hotel, date e disponibilita' si confermano con un preventivo gratuito, senza impegno.",
-      "immagine": "",
+      "immagine": "assets/images/products/weekend-primavera-cortina.jpg",
       "visibile": true,
       "tr": {
         "en": {
@@ -204,7 +204,7 @@
       "tipo": "digitale",
       "prezzo_centesimi": 34900,
       "descrizione_completa": "Tre notti a Cortina con colazione e un'escursione guidata nelle Dolomiti, Patrimonio UNESCO.\nItinerari per tutti i livelli, a scelta tra Tre Cime di Lavaredo e Lago di Braies.\nPrezzo indicativo a partire da: hotel, date e disponibilita' si confermano con un preventivo gratuito, senza impegno.",
-      "immagine": "",
+      "immagine": "assets/images/products/trekking-dolomiti-cortina.jpg",
       "visibile": true,
       "tr": {
         "en": {
@@ -227,7 +227,7 @@
       "tipo": "digitale",
       "prezzo_centesimi": 27900,
       "descrizione_completa": "Due notti per due con colazione, una cena tipica ampezzana e un'escursione tra i boschi di larici dorati.\nLa stagione dei colori e dei sapori d'alta quota.\nPrezzo indicativo a partire da: hotel, date e disponibilita' si confermano con un preventivo gratuito, senza impegno.",
-      "immagine": "",
+      "immagine": "assets/images/products/autunno-foliage-cortina.jpg",
       "visibile": true,
       "tr": {
         "en": {
@@ -250,7 +250,7 @@
       "prezzo_centesimi": 0,
       "descrizione": "Una settimana di vacanza al mare.",
       "descrizione_completa": "Una settimana di vacanza al mare.",
-      "immagine": "",
+      "immagine": "assets/images/products/settimana-mare.jpg",
       "icona": "✈️",
       "visibile": false,
       "tr": {
@@ -269,7 +269,7 @@
       "prezzo_centesimi": 0,
       "descrizione": "Viaggio di nozze costruito sulle vostre richieste.",
       "descrizione_completa": "Viaggio di nozze costruito sulle vostre richieste.",
-      "immagine": "",
+      "immagine": "assets/images/products/viaggio-nozze.jpg",
       "icona": "✈️",
       "visibile": false,
       "tr": {
@@ -288,7 +288,7 @@
       "prezzo_centesimi": 0,
       "descrizione": "Viaggio costruito su misura per te.",
       "descrizione_completa": "Viaggio costruito su misura per te.",
-      "immagine": "",
+      "immagine": "assets/images/products/viaggio-su-misura.jpg",
       "icona": "✈️",
       "visibile": false,
       "tr": {
@@ -307,7 +307,7 @@
       "prezzo_centesimi": 0,
       "descrizione": "Weekend o breve soggiorno in una città d’arte.",
       "descrizione_completa": "Weekend o breve soggiorno in una città d’arte.",
-      "immagine": "",
+      "immagine": "assets/images/products/weekend-citta.jpg",
       "icona": "✈️",
       "visibile": false,
       "tr": {
