@@ -12,12 +12,42 @@
       }
     },
     {
-      "nome": "Cortina e Dolomiti",
-      "id": "cortina-dolomiti",
-      "icona": "🏔️",
+      "nome": "Cortina in inverno",
+      "id": "cortina-inverno",
+      "icona": "❄️",
       "tr": {
         "en": {
-          "nome": "Cortina and the Dolomites"
+          "nome": "Cortina in winter"
+        }
+      }
+    },
+    {
+      "nome": "Cortina in primavera",
+      "id": "cortina-primavera",
+      "icona": "🌸",
+      "tr": {
+        "en": {
+          "nome": "Cortina in spring"
+        }
+      }
+    },
+    {
+      "nome": "Cortina in estate",
+      "id": "cortina-estate",
+      "icona": "☀️",
+      "tr": {
+        "en": {
+          "nome": "Cortina in summer"
+        }
+      }
+    },
+    {
+      "nome": "Cortina in autunno",
+      "id": "cortina-autunno",
+      "icona": "🍂",
+      "tr": {
+        "en": {
+          "nome": "Cortina in autumn"
         }
       }
     }
@@ -103,7 +133,7 @@
       "id": "cortina-fuga-romantica",
       "nome": "Fuga romantica a Cortina per due",
       "descrizione": "2 notti per due in hotel 4 stelle con colazione, ingresso alla spa e cena romantica.",
-      "categoria": "cortina-dolomiti",
+      "categoria": "cortina-inverno",
       "icona": "❤️",
       "tipo": "digitale",
       "prezzo_centesimi": 39900,
@@ -122,7 +152,7 @@
       "id": "cortina-weekend-spa",
       "nome": "Weekend benessere e spa a Cortina",
       "descrizione": "1 notte per due con colazione, percorso spa e un massaggio rilassante.",
-      "categoria": "cortina-dolomiti",
+      "categoria": "cortina-inverno",
       "icona": "🧖",
       "tipo": "digitale",
       "prezzo_centesimi": 24900,
@@ -141,7 +171,7 @@
       "id": "cortina-settimana-bianca",
       "nome": "Settimana bianca a Cortina con skipass",
       "descrizione": "7 notti con mezza pensione e skipass Dolomiti Superski, a persona.",
-      "categoria": "cortina-dolomiti",
+      "categoria": "cortina-inverno",
       "icona": "⛷️",
       "tipo": "digitale",
       "prezzo_centesimi": 89000,
@@ -160,7 +190,7 @@
       "id": "cortina-gourmet-rifugio",
       "nome": "Cena in rifugio e notte a Cortina",
       "descrizione": "Cena tipica in rifugio o malga e 1 notte per due con colazione.",
-      "categoria": "cortina-dolomiti",
+      "categoria": "cortina-inverno",
       "icona": "🍽️",
       "tipo": "digitale",
       "prezzo_centesimi": 19900,
@@ -179,7 +209,7 @@
       "id": "cortina-trekking-dolomiti",
       "nome": "Estate in Dolomiti: 3 notti e trekking guidato",
       "descrizione": "3 notti con colazione e un'escursione con guida alpina (Tre Cime o Lago di Braies), a persona.",
-      "categoria": "cortina-dolomiti",
+      "categoria": "cortina-estate",
       "icona": "🥾",
       "tipo": "digitale",
       "prezzo_centesimi": 34900,
@@ -198,7 +228,7 @@
       "id": "cortina-famiglia-neve",
       "nome": "Weekend famiglia sulla neve a Cortina",
       "descrizione": "2 notti per 4 persone con colazione, slittino e ciaspolata facile con guida.",
-      "categoria": "cortina-dolomiti",
+      "categoria": "cortina-inverno",
       "icona": "🛷",
       "tipo": "digitale",
       "prezzo_centesimi": 49900,
@@ -210,6 +240,44 @@
           "nome": "Family snow weekend in Cortina",
           "descrizione": "2 nights for 4 people with breakfast, sledging and an easy guided snowshoe walk.",
           "descrizione_completa": "Two nights for a family (2 adults and 2 children) with breakfast, a sledging day and an easy guided snowshoe walk.\nPrice per family. Ask for a quote for larger groups.\nIndicative starting price: hotel, dates and availability are confirmed with a free, no-obligation quote."
+        }
+      }
+    },
+    {
+      "id": "cortina-primavera-relax",
+      "nome": "Weekend di primavera: relax e passeggiate a Cortina",
+      "descrizione": "1 notte per due con colazione, ingresso spa e passeggiata guidata ai laghi.",
+      "categoria": "cortina-primavera",
+      "icona": "🌸",
+      "tipo": "digitale",
+      "prezzo_centesimi": 22900,
+      "descrizione_completa": "Una notte per due con colazione, ingresso alla spa e una passeggiata guidata facile verso i laghi della conca ampezzana.\nPrimavera tranquilla, lontano dalla folla.\nPrezzo indicativo a partire da: hotel, date e disponibilita' si confermano con un preventivo gratuito, senza impegno.",
+      "immagine": "",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Spring weekend: relax and walks in Cortina",
+          "descrizione": "1 night for two with breakfast, spa access and a guided lake walk.",
+          "descrizione_completa": "One night for two with breakfast, spa access and an easy guided walk to the lakes around Cortina.\nA quiet spring, away from the crowds.\nIndicative starting price: hotel, dates and availability are confirmed with a free, no-obligation quote."
+        }
+      }
+    },
+    {
+      "id": "cortina-autunno-foliage",
+      "nome": "Autunno in Dolomiti: foliage e sapori a Cortina",
+      "descrizione": "2 notti per due con colazione, cena tipica e escursione tra i larici dorati.",
+      "categoria": "cortina-autunno",
+      "icona": "🍂",
+      "tipo": "digitale",
+      "prezzo_centesimi": 27900,
+      "descrizione_completa": "Due notti per due con colazione, una cena tipica ampezzana e un'escursione tra i boschi di larici dorati.\nLa stagione dei colori e dei sapori d'alta quota.\nPrezzo indicativo a partire da: hotel, date e disponibilita' si confermano con un preventivo gratuito, senza impegno.",
+      "immagine": "",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Dolomites autumn: foliage and flavours in Cortina",
+          "descrizione": "2 nights for two with breakfast, a traditional dinner and a hike among golden larches.",
+          "descrizione_completa": "Two nights for two with breakfast, a traditional Ampezzo dinner and a hike among golden larch forests.\nThe season of colours and mountain flavours.\nIndicative starting price: hotel, dates and availability are confirmed with a free, no-obligation quote."
         }
       }
     }
